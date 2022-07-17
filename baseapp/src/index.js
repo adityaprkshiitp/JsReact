@@ -11,6 +11,15 @@ root.render(
   </React.StrictMode>
 );
 
+export default function Home(){
+  <div className='flex flex-col items-center justify-center-min-h-screen py-2'>
+    <head>
+      <title>Google Docs Clone</title>
+      <link rel="icon" href="/favicon.ico"/>
+    </head>
+  </div>
+}
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
